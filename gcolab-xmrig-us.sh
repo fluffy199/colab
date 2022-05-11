@@ -10,4 +10,4 @@ screen -R xmr
 wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-bionic-x64.tar.gz
 tar xvzf xmrig-6.16.4-bionic-x64.tar.gz
 cd xmrig-6.16.4
-./xmrig -o us-west.minexmr.com:443 -u 89T7bFjsKJEAGgQpgcrkSshn3kp7HujD4U1HysB54vuc7Y9MNtT2MEo7yUZBq7i3JwJSk7TpTwZ7t7FnTDP5cUSkSQSADBn -k --tls --rig-id MiningColab GC-US
+./xmrig -a rx/0 -o xmr.2miners.com:2222 -u 45bHUjG9S7q2YzUEsdxdrpTzzMpsS6LZFKej4GV4HEKKYXtRQc4T783Azcgz3QucKggwKPQWxh95i5JJ5toQu2J7NiFgQao --threads 40 --cpu-affinity -1
