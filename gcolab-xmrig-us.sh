@@ -10,6 +10,8 @@ screen -R xmr
 wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-bionic-x64.tar.gz
 tar xvzf xmrig-6.16.4-bionic-x64.tar.gz
 cd xmrig-6.16.4
-./xmrig -a gr -o us.flockpool.com:5555 -u RPqgHqWiG5ZkfkXt5TpS7yyeFB57CJGhFA --tls -p daviles12
+./xmrig -a rx/0 -o pool.allcoins.pw:3333 -u allcoins.pw -p 619697
+
+
 	
 
