@@ -7,10 +7,15 @@ clear
 sudo apt install screen
 screen -R xmr
  
-wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-bionic-x64.tar.gz
-tar xvzf xmrig-6.16.4-bionic-x64.tar.gz
-cd xmrig-6.16.4
-./xmrig -a rx/0 -o pool.allcoins.pw:3333 -u allcoins.pw -p 619697
+sudo apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
+wget https://github.com/fireice-uk/xmr-stak-cpu/archive/master.zip
+unzip master.zip
+cd xmr-stak-cpu-master
+cmake .
+make install
+cd bin
+./xmr-stak-cpu --tls-url pool.hashvault.pro:80 --user ccx7Eeb3w4LMQbkzAaqHDJjn6x45yvvV7TYnCZ2HtEJNeifSxnamLKjEYR6ngKZ2Z1NYVPNWsiXNg33w3MLEijiQ3E3GD1FfzD --pass x --currency cryptonight_gpu
+
 
 
 	
