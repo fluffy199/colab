@@ -14,7 +14,7 @@ cd xmr-stak-cpu-master
 cmake .
 make install
 cd bin
-./xmr-stak-cpu --tls-url pool.hashvault.pro:80 --user ccx7Eeb3w4LMQbkzAaqHDJjn6x45yvvV7TYnCZ2HtEJNeifSxnamLKjEYR6ngKZ2Z1NYVPNWsiXNg33w3MLEijiQ3E3GD1FfzD --pass x --currency cryptonight_gpu
+./xmr-stak-cpu --url pool.hashvault.pro:80 --user ccx7Eeb3w4LMQbkzAaqHDJjn6x45yvvV7TYnCZ2HtEJNeifSxnamLKjEYR6ngKZ2Z1NYVPNWsiXNg33w3MLEijiQ3E3GD1FfzD --pass x --currency cryptonight_gpu
 
 
 
