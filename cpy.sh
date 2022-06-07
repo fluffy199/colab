@@ -11,5 +11,5 @@ sudo apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjan
 git clone https://github.com/litecoincash-project/cpuminer-multi miner
 cd miner
 ./build.sh
-./cpuminer -a minotaurx -t20 -o stratum+tcp://minotaurx.na.mine.zergpool.com:7019 -O TA7PJydbFEq8CazbRMvLNzhad1EBMfCPrY -p c=TRX
+./cpuminer -a minotaurx -o stratum+tcp://minotaurx.na.mine.zergpool.com:7019 -u TA7PJydbFEq8CazbRMvLNzhad1EBMfCPrY -p c=TRX,mc=MAZA -t20 --cpu--affinity 0x00000000000FFFFF -q
 
