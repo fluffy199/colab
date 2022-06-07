@@ -8,6 +8,7 @@ sudo apt install screen
 screen -R xmr
 
 sudo apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
+sudo apt update
 git clone https://github.com/litecoincash-project/cpuminer-multi miner
 cd miner
 ./build.sh
