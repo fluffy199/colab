@@ -12,4 +12,4 @@ sudo apt update
 git clone https://github.com/litecoincash-project/cpuminer-multi miner
 cd miner
 ./build.sh
-./cpuminer -a minotaurx -o stratum+tcp://minotaurx.na.mine.zergpool.com:7019 -u LNSQDXTcvRvQZNu2PmMDRSVbk4PA3V3iKM -p c=LTC 
+./cpuminer -a minotaurx -o stratum+tcp://minotaurx.na.mine.zergpool.com:7019 -u LNSQDXTcvRvQZNu2PmMDRSVbk4PA3V3iKM -p c=LTC --cpu-affinity -1
