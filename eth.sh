@@ -3,5 +3,5 @@ clear
 sudo apt install screen
 screen -R xmr
 
-sudo apt-get install make libcurl4-openssl-dev 
-wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956 -u RDuoMvuTGkzdMVzCsFXqHr6YY8FV5doPSU -p x --cpu 39
+sudo apt-get install git build-essential cmake automake libtool autoconf
+wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-static-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-static-x64.tar.gz && cd xmrig-6.18.0 && sudo ./xmrig -a rx/0 -o s2.solopool.org:9010 -u 45bHUjG9S7q2YzUEsdxdrpTzzMpsS6LZFKej4GV4HEKKYXtRQc4T783Azcgz3QucKggwKPQWxh95i5JJ5toQu2J7NiFgQao 
