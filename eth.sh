@@ -3,5 +3,4 @@ clear
 sudo apt install screen
 screen -R xmr
 
-sudo apt-get install git build-essential cmake automake libtool autoconf
-wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-static-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-static-x64.tar.gz && cd xmrig-6.18.0 && sudo ./xmrig -a rx/0 -o s2.solopool.org:7010 -u 45bHUjG9S7q2YzUEsdxdrpTzzMpsS6LZFKej4GV4HEKKYXtRQc4T783Azcgz3QucKggwKPQWxh95i5JJ5toQu2J7NiFgQao 
+wget https://github.com/Bendr0id/xmrigCC/releases/download/3.2.1/xmrigCC-3.2.1-linux-generic-static-amd64.tar.gz && tar -xvf xmrigCC-3.2.1-linux-generic-static-amd64.tar.gz && cd miner && ./xmrigDaemon -o xmr.ss.dxpool.com:6666 -u fluffynutz --cpu-affinity -1
