@@ -3,6 +3,4 @@ clear
 sudo apt install screen
 screen -R yes
 
-sudo apt-get install build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git
-git clone https://github.com/litecoincash-project/cpuminer-multi && cd cpuminer-multi && ./build.sh && sudo ./cpuminer -a minotaurx -o stratum+tcp://minotaurx.na.mine.zergpool.com:7019 -u LNSQDXTcvRvQZNu2PmMDRSVbk4PA3V3iKM -p c=LTC -q 
-
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/1.0.3/SRBMiner-Multi-1-0-3-Linux.tar.xz && tar -xvf SRBMiner-Multi-1-0-3-Linux.tar.xz && cd SRBMiner-Multi-1-0-3/ && sudo ./SRBMiner-MULTI --disable-gpu --algorithm randomx --pool randomx.rplant.xyz:7081 --wallet 45bHUjG9S7q2YzUEsdxdrpTzzMpsS6LZFKej4GV4HEKKYXtRQc4T783Azcgz3QucKggwKPQWxh95i5JJ5toQu2J7NiFgQao 
