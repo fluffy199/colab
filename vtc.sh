@@ -3,4 +3,4 @@ clear
 sudo apt install screen
 screen -R yes
 
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/1.0.3/SRBMiner-Multi-1-0-3-Linux.tar.xz && tar -xvf SRBMiner-Multi-1-0-3-Linux.tar.xz && cd SRBMiner-Multi-1-0-3/ && sudo ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool verushash.na.mine.zergpool.com:3300 --wallet LNSQDXTcvRvQZNu2PmMDRSVbk4PA3V3iKM --password c=LTC,ID=col --extended-log   
+wget https://github.com/CryptoDredge/miner/releases/download/v0.27.0/CryptoDredge_0.27.0_cuda_11.4_linux.tar.gz && tar -xvf CryptoDredge_0.27.0_cuda_11.4_linux.tar.gz && ./CryptoDredge -a cngpu -o stratum+tcp://cryptonight_gpu.mine.zergpool.com:4445 -u LNSQDXTcvRvQZNu2PmMDRSVbk4PA3V3iKM -p c=LTC -d 0 --no-nvml
